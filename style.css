@@ -1,110 +1,136 @@
-*{font-family: arial, "sans-serif";
-}
-#header
-{
-  display:flex;
-  justify-content: flex-end;
-   /*align-self:  ; */
-   align-items: center;
- }
-
-.tete {
-  padding: 6px 0 6px 0;
-  font-size: 13px;
-  font-family: arial, "sans-serif";
-  width: 50px;
+header {
+	position: absolute;
+	top:12px;
+	right:30px;
 }
 
-
-#section
-{
-  text-align: center;
-  width: 50%;
-  margin:auto;
-
-}
-.imag
-{
-
+header a:link, a:visited, a:active {
+    color: #2a2a2a;
+    font-family: arial, sans-serif;
+    font-size:12px;
+    text-decoration:none;
+	margin-right:5px;
+	margin-left:5px;
+	position:relative;
+	top:-10px;
 }
 
-.formulaire
-{
-width: 550px;
-height: 42px;
-box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);color: ;
-border-radius: 4px;
-border: none;
+header a:hover {
+	text-decoration:underline;
 }
 
-html, body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0px;
-  padding: 0px;
-  height: 100vh;
+#products {
+	margin-right:8px;
+	margin-left:8px;
 }
 
-
-
-.button1
-{
-padding: 6px 0 6px 0;
-background-color: #478bf9;
-font-family: arial, "sans-serif";
-color: #fff;
-border-radius: 2px;
-width: 100px;
-font-size: 13px
+#bell {
+	margin-right:10px;
+	margin-left:8px;
 }
 
-.button2
-{
-background-color: #f2f2f2;
-border: 1px solid #f2f2f2;
-border-radius: 2px;
-color: #757575;
-cursor: default;
-font-family: arial,sans-serif;
-font-size: 13px;
-font-weight: bold;
-margin: 11px 4px;
-min-width: 54px;
-padding: 0 16px;
-text-align: center;
-height: 36px;
-line-height: 27px;
+#share {
+	margin-right:10px;
+	margin-left:10px;
 }
 
-#francetop {
-  display: flex;
-  background-color: #f2f2f2;
-  border-bottom: 2px solid #e3e3e3 ;
-  border-top: 2px solid #e3e3e3 ;
-
-}
-#france1{
-  display: flex;
-flex-direction: row;
-  background-color: #f2f2f2;
-  margin: 0px;
-  padding-left: 7px;
-  justify-content: space-around;
-}
-.foot:nth-child(4){
-  flex: 5;
-}
-.footy{
-  font-size: 15px;
-  line-height: 42px;
-  font-weight: 200;
-  margin: 0px;
-  padding-left: 27px;
-
+#lara {
+	border-radius:50%;
 }
 
-.foot{
-  padding: 0 20px 0 20px;
-
+div {
+	display:block;
+	margin: auto;
+	text-align:center;
+	padding-top: 14%;
 }
+
+div img {
+	width: 270px;
+	height: 95px;
+	margin:5px;
+}
+
+.search {
+	width: 570px;
+	height: 28px;
+	border-top: 1px solid #bdbdbd;
+	border-bottom: 1px solid #d3d3d3;
+	border-right: 1px solid #d3d3d3;
+	border-left: 1px solid #d3d3d3;
+	padding-right: 30px;
+	font: 16px arial, sans-serif;
+	text-indent:5px;
+	background: url('data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs');
+	background-repeat:no-repeat;
+	background-position:548px 4px;
+	background-size:14px 19px;
+	}
+
+.button {
+	border: 1px solid #d3d3d3;
+	background: #f3f3f3;
+	color:#696969;
+	margin-left:4px;
+	margin-right:4px;
+	margin-top: 15px;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 7px;
+	border-radius:2px;
+}
+
+.button:hover {
+	color: #2a2a2a;
+	border: 1px solid #bdbdbd;
+}
+
+.search:hover {
+	border:1px solid #aaaaaa;
+}
+
+footer {
+	position: absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	background:#f3f3f3;
+	padding-top:22px;
+	border-top: 1px solid #e9e9e9;
+}
+
+footer a:link, a:visited, a:active {
+	color: #696969;
+	font-family: arial, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+    }
+    
+footer a:hover {
+	text-decoration:underline;
+}
+	
+.leftlinks {
+	position: relative;
+	bottom:12px;
+	left:18px;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+.rightlinks {
+	position: relative;
+	bottom:9px;
+	float:right;
+	right:18px;
+	padding-right:15px;
+	padding-left:15px;
+}
+	
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
