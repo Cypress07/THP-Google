@@ -2,53 +2,37 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google</title>
-  <link rel="stylesheet" type="text/css" title="Cool stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <title>Google</title>
 </head>
 
 <body>
-  <header id="header">
-    <div class="tete"><p>Gmail</p></div>
-    <div class="tete"><p>Images</p></div>
-    <div class="tete">
-      <img src="./img/damier.png" width="25px" height="25px">
-    </div>
+    <header>
+        <a href="https://mail.google.com">Gmail</a>
+        <a href="https://www.google.com/imghp?hl=en&tab=wi&ei=Ox1NVMXuJYO3yATCjoFA&ved=0CAQQqi4oAg">Images</a>
+        <img id="products" src="img/products.png" />
+        <img id="connect" src="img/connect.png" />
+    </header>
     <div>
-      <button class="button1" onclick="changecss()">Connexion </button>
+        <img src="img/logo.png" />
+        <form name="google" action="#" method="POST"><br>
+            <input type="search" class="search"><br>
+            <input type="submit" class="button" name="submit" value="Recherche Google">
+            <input type="submit" class="button" name="lucky" value="J'ai de la chance">
+        </form>
     </div>
-    
-  </header>
+    <footer>
+        <a class="leftlinks" href="https://www.google.fr/intl/fr/ads/?fg=1">Publicité</a>
+        <a class="leftlinks" href="https://www.google.fr/services/?fg=1#?modal_active=none">Entreprise</a>
+        <a class="leftlinks" href="https://www.google.com/intl/en/about/">A propos</a>
+        <a class="leftlinks" href="https://google.com/search/howsearchworks/?fg=1">Comment fonctionne la recherche Google ?</a>
+        <a class="rightlinks" href="https://support.google.com/websearch?p=fr_consumer_info&hl=fr&fg=1">Infos consommateurs</a>
+        <a class="rightlinks" href="https://www.google.fr/intl/fr/policies/privacy/?fg=1">Confidentialité</a>
+        <a class="rightlinks" href="https://www.google.fr/intl/fr/policies/terms/?fg=1">Conditions</a>
+        <a class="rightlinks" href="https://www.google.fr/preferences?hl=fr">Paramètres</a>
 
-  <section id="section">
-    <div class="imag">
-      <img src="./img/logo.png"> </div> <form method=post>
-      <p>
-        <input class="formulaire" type="text" name="nom" />
-      </p>
-      </form>
-      <div class="imag">
-        <button class="button2" onclick="changecss()">Recherche Google </button>
-        <button class="button2" onclick="changecss()">J'ai de la chance </button>
-      </div>
-  </section>
-
-  <footer>
-    <div id="francetop">
-      <p class="footy">France</p>
-    </div>
-    <span id="france1">
-        <p class="foot"> Publicité</p>
-        <p class="foot"> Entreprise</p>
-        <p class="foot"> À propos</p>
-        <div class="foot"> </div>
-        <p class="foot">Info consommateurs</p>
-        <p class="foot"> Confidentialité</p>
-        <p class="foot"> Conditions</p>
-        <p class="foot"> Paramètres</p>
-    </span>
-  </footer>
+    </footer>
 </body>
 
 </html>
